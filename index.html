@@ -6,12 +6,51 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css"
     
   </head>
 
   <body>
-    <script src = "js/hello.js"></script>
-    <h1 id="MakeBlue">grats m78</h1>
-    <p>You have succesfully setup your development environment! Go back and cry.</p>
+    <div >
+          
+      <form class = "form-group">
+        <h2 id="page-header">
+         thing
+        </h2>
+        <div class="col-xs-6">      
+         <label class="white-text"> Weight in KG </label>
+         <input class="form-control" name="Weight" type="number" id="Weight"/>
+         
+         <label class="white-text"> Height in cm </label>
+         <input class="form-control" name="Height" type="number" id="Height"/>
+         <label class="white-text"> M or F </label>
+         <select class="form-control" name="Sex" id="Sex"/>
+            <option class="form-control" value = "m">Male</option>
+            <option class="form-control" value = "f">Female</option>
+         </select>
+         </div>
+
+
+        <div class="col-xs-6">      
+
+         <label class="white-text">Age</label>
+         <input class="form-control" name="Age" type="number" id="Age"/>
+         <label class="white-text">Waist</label>
+         <input class="form-control" name="Waist" type="number" id="Waist"/>
+         <label class="white-text"> Hip </label>
+         <input class="form-control" name="Hip" type="number" id="Hip"/>
+         </div>
+
+         <div class="centerWrapper">
+         <input class="btn btn-default submit-button" id="my-submit-button" type="button" value="submit" onclick="start()">
+         </div>
+      </form>
+        </div>
+    </label>
+  
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="./js/charles.js"></script>
+
   </body>
 </html>
